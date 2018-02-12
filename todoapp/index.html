@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>ToDo App</title>
+		<link rel="stylesheet" href="style.css" />
+	</head>
+	<body>
+		<form action="/tasks/new" method="POST">
+			<h2>New Task</h2>
+			<input type="text" name="description" placeholder="New Task" />
+			<input type="submit" />
+		</form>
+		<br/>
+		<h2>Our Tasks</h2>
+		<ul id="task-area"></ul>
+		<h2>Update Task</h2>	
+		<div id="update-area"></div>
+	</body>
+	<script>
+		fetch("tasks").then(function(res){
+			res.json().then(function(data){
+				data.forEach(function(task){
+					let taskhtml = document.createElement("li");
+					let deletebutton = document.createElement("button");
+					let updatebutton = document.createElement("button");
+					deletebutton.innerHTML = "Delete this Task";
+					updatebutton.innerHTML = "Update this Task";
+
+					updatebutton.addEventListener('click', function() {
+						updateTask(task._id, task.description);
+					});
+
+					deletebutton.addEventListener('click', function() {
+						deleteTask(task._id);
+					});
+					taskhtml.innerText = task.description;
+					document.getElementById('task-area').append(taskhtml);
+					document.getElementById('task-area').append(deletebutton);
+					document.getElementById('task-area').append(updatebutton);
+
+				});
+			});
+		});
+
+		function updateTask(objectid, description) {
+			let input = document.createElement("input");
+			input.placeholder = description;
+			input.id = "updateinput";
+			let submitupdate = document.createElement("button");
+			submitupdate.innerText = "Update";
+			submitupdate.addEventListener("click", function() {
+				fetch('tasks/update/' + objectid, {method: 'PUT', body: JSON.stringify({
+					description: document.getElementById('updateinput').value}),
+					headers: {"Content-type" : "application/json"}});
+			});
+			document.getElementById('update-area').append(input);
+			document.getElementById('update-area').append(submitupdate);
+		}
+		function deleteTask(objectid) {
+			fetch('/tasks/delete/' + objectid, {method: 'DELETE'});
+		}
+	</script>
+</html>
