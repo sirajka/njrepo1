@@ -1,0 +1,150 @@
+!SESSION 2018-02-07 16:24:12.444 -----------------------------------------------
+eclipse.buildId=debbuild
+java.version=1.8.0_151
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Command-line arguments:  -os linux -ws gtk -arch x86_64
+
+!ENTRY org.eclipse.equinox.p2.operations 4 0 2018-02-07 16:25:07.924
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 1 2018-02-07 16:25:07.924
+!MESSAGE Cannot complete the install because of a conflicting dependency.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2018-02-07 16:25:07.924
+!MESSAGE Software being installed: Eclipse Java Development Tools 3.13.2.v20171130-0906 (org.eclipse.jdt.feature.group 3.13.2.v20171130-0906)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2018-02-07 16:25:07.924
+!MESSAGE Software currently installed: Eclipse Platform 3.7.0.debbuild (org.eclipse.platform.ide 3.7.0.debbuild)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2018-02-07 16:25:07.924
+!MESSAGE Only one of the following can be installed at once: 
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2018-02-07 16:25:07.924
+!MESSAGE Core Resource Management 3.8.1.dist (org.eclipse.core.resources 3.8.1.dist)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2018-02-07 16:25:07.924
+!MESSAGE Core Resource Management 3.12.0.v20170417-1558 (org.eclipse.core.resources 3.12.0.v20170417-1558)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2018-02-07 16:25:07.924
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2018-02-07 16:25:07.924
+!MESSAGE From: Eclipse Java Development Tools 3.13.2.v20171130-0906 (org.eclipse.jdt.feature.group 3.13.2.v20171130-0906)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2018-02-07 16:25:07.924
+!MESSAGE To: org.eclipse.jdt.junit.core [3.9.51.v20171102-1136]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2018-02-07 16:25:07.924
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2018-02-07 16:25:07.924
+!MESSAGE From: Java Development Tools JUnit core support 3.9.51.v20171102-1136 (org.eclipse.jdt.junit.core 3.9.51.v20171102-1136)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2018-02-07 16:25:07.924
+!MESSAGE To: bundle org.eclipse.core.resources [3.8.100,4.0.0)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2018-02-07 16:25:07.925
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2018-02-07 16:25:07.925
+!MESSAGE From: Eclipse Platform 3.8.1.dist-A8F8_IVSG4WGSImg7oLZb9p1HecSFyJZcMPL9 (org.eclipse.platform.feature.group 3.8.1.dist-A8F8_IVSG4WGSImg7oLZb9p1HecSFyJZcMPL9)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2018-02-07 16:25:07.925
+!MESSAGE To: org.eclipse.core.resources [3.8.1.dist]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2018-02-07 16:25:07.925
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2018-02-07 16:25:07.925
+!MESSAGE From: Eclipse Platform 3.7.0.debbuild (org.eclipse.platform.ide 3.7.0.debbuild)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2018-02-07 16:25:07.925
+!MESSAGE To: org.eclipse.platform.feature.group [3.8.1.dist-A8F8_IVSG4WGSImg7oLZb9p1HecSFyJZcMPL9]
+
+!ENTRY org.eclipse.equinox.p2.operations 4 0 2018-02-07 16:25:08.721
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 1 2018-02-07 16:25:08.721
+!MESSAGE Cannot complete the install because of a conflicting dependency.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2018-02-07 16:25:08.721
+!MESSAGE Software being installed: Eclipse Java Development Tools 3.13.2.v20171130-0906 (org.eclipse.jdt.feature.group 3.13.2.v20171130-0906)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2018-02-07 16:25:08.721
+!MESSAGE Software currently installed: Eclipse Platform 3.7.0.debbuild (org.eclipse.platform.ide 3.7.0.debbuild)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2018-02-07 16:25:08.722
+!MESSAGE Only one of the following can be installed at once: 
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2018-02-07 16:25:08.722
+!MESSAGE Core Resource Management 3.8.1.dist (org.eclipse.core.resources 3.8.1.dist)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2018-02-07 16:25:08.722
+!MESSAGE Core Resource Management 3.12.0.v20170417-1558 (org.eclipse.core.resources 3.12.0.v20170417-1558)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2018-02-07 16:25:08.722
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2018-02-07 16:25:08.722
+!MESSAGE From: Eclipse Java Development Tools 3.13.2.v20171130-0906 (org.eclipse.jdt.feature.group 3.13.2.v20171130-0906)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2018-02-07 16:25:08.722
+!MESSAGE To: org.eclipse.jdt.junit.core [3.9.51.v20171102-1136]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2018-02-07 16:25:08.722
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2018-02-07 16:25:08.722
+!MESSAGE From: Java Development Tools JUnit core support 3.9.51.v20171102-1136 (org.eclipse.jdt.junit.core 3.9.51.v20171102-1136)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2018-02-07 16:25:08.722
+!MESSAGE To: bundle org.eclipse.core.resources [3.8.100,4.0.0)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2018-02-07 16:25:08.722
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2018-02-07 16:25:08.722
+!MESSAGE From: Eclipse Platform 3.8.1.dist-A8F8_IVSG4WGSImg7oLZb9p1HecSFyJZcMPL9 (org.eclipse.platform.feature.group 3.8.1.dist-A8F8_IVSG4WGSImg7oLZb9p1HecSFyJZcMPL9)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2018-02-07 16:25:08.722
+!MESSAGE To: org.eclipse.core.resources [3.8.1.dist]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2018-02-07 16:25:08.722
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2018-02-07 16:25:08.723
+!MESSAGE From: Eclipse Platform 3.7.0.debbuild (org.eclipse.platform.ide 3.7.0.debbuild)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2018-02-07 16:25:08.723
+!MESSAGE To: org.eclipse.platform.feature.group [3.8.1.dist-A8F8_IVSG4WGSImg7oLZb9p1HecSFyJZcMPL9]
+
+!ENTRY org.eclipse.equinox.p2.operations 4 0 2018-02-07 16:25:10.315
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 1 2018-02-07 16:25:10.315
+!MESSAGE Cannot complete the install because of a conflicting dependency.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2018-02-07 16:25:10.315
+!MESSAGE Software being installed: Eclipse CVS Client Resources 1.4.402.v20171130-0510 (org.eclipse.cvs.source.feature.group 1.4.402.v20171130-0510)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2018-02-07 16:25:10.315
+!MESSAGE Software currently installed: Eclipse CVS Client 1.3.200.dist-7B79FJJ9exZ_ (org.eclipse.cvs.feature.group 1.3.200.dist-7B79FJJ9exZ_)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2018-02-07 16:25:10.315
+!MESSAGE Only one of the following can be installed at once: 
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2018-02-07 16:25:10.315
+!MESSAGE Eclipse CVS Client 1.4.402.v20171130-0510 (org.eclipse.cvs 1.4.402.v20171130-0510)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2018-02-07 16:25:10.315
+!MESSAGE Eclipse CVS Client 1.2.0.dist (org.eclipse.cvs 1.2.0.dist)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2018-02-07 16:25:10.315
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2018-02-07 16:25:10.315
+!MESSAGE From: Eclipse CVS Client 1.3.200.dist-7B79FJJ9exZ_ (org.eclipse.cvs.feature.group 1.3.200.dist-7B79FJJ9exZ_)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2018-02-07 16:25:10.315
+!MESSAGE To: org.eclipse.cvs [1.2.0.dist]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2018-02-07 16:25:10.315
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2018-02-07 16:25:10.315
+!MESSAGE From: Eclipse CVS Client 1.4.402.v20171130-0510 (org.eclipse.cvs.feature.group 1.4.402.v20171130-0510)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2018-02-07 16:25:10.315
+!MESSAGE To: org.eclipse.cvs [1.4.402.v20171130-0510]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2018-02-07 16:25:10.315
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2018-02-07 16:25:10.315
+!MESSAGE From: Eclipse CVS Client Resources 1.4.402.v20171130-0510 (org.eclipse.cvs.source.feature.group 1.4.402.v20171130-0510)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2018-02-07 16:25:10.316
+!MESSAGE To: org.eclipse.cvs.feature.group [1.4.402.v20171130-0510]
+
+!ENTRY org.eclipse.equinox.p2.operations 4 0 2018-02-07 16:25:10.317
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 1 2018-02-07 16:25:10.317
+!MESSAGE Cannot complete the install because of a conflicting dependency.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2018-02-07 16:25:10.317
+!MESSAGE Software being installed: Eclipse CVS Client Resources 1.4.402.v20171130-0510 (org.eclipse.cvs.source.feature.group 1.4.402.v20171130-0510)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2018-02-07 16:25:10.317
+!MESSAGE Software currently installed: Eclipse CVS Client 1.3.200.dist-7B79FJJ9exZ_ (org.eclipse.cvs.feature.group 1.3.200.dist-7B79FJJ9exZ_)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2018-02-07 16:25:10.317
+!MESSAGE Only one of the following can be installed at once: 
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2018-02-07 16:25:10.317
+!MESSAGE Eclipse CVS Client 1.4.402.v20171130-0510 (org.eclipse.cvs 1.4.402.v20171130-0510)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2018-02-07 16:25:10.317
+!MESSAGE Eclipse CVS Client 1.2.0.dist (org.eclipse.cvs 1.2.0.dist)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2018-02-07 16:25:10.317
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2018-02-07 16:25:10.317
+!MESSAGE From: Eclipse CVS Client 1.3.200.dist-7B79FJJ9exZ_ (org.eclipse.cvs.feature.group 1.3.200.dist-7B79FJJ9exZ_)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2018-02-07 16:25:10.317
+!MESSAGE To: org.eclipse.cvs [1.2.0.dist]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2018-02-07 16:25:10.317
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2018-02-07 16:25:10.318
+!MESSAGE From: Eclipse CVS Client 1.4.402.v20171130-0510 (org.eclipse.cvs.feature.group 1.4.402.v20171130-0510)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2018-02-07 16:25:10.319
+!MESSAGE To: org.eclipse.cvs [1.4.402.v20171130-0510]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2018-02-07 16:25:10.319
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2018-02-07 16:25:10.319
+!MESSAGE From: Eclipse CVS Client Resources 1.4.402.v20171130-0510 (org.eclipse.cvs.source.feature.group 1.4.402.v20171130-0510)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2018-02-07 16:25:10.319
+!MESSAGE To: org.eclipse.cvs.feature.group [1.4.402.v20171130-0510]
